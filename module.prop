@@ -1,6 +1,6 @@
-id=test
-name=test
-version=test
+id=auto_copy_ca
+name=auto_copy_ca
+version=114514
 versionCode=1
-author=test
-description=test
+author=XiaoTong
+description=magisk module(auto copy ca)by github.com/XiaoTong6666 
