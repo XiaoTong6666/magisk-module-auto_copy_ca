@@ -17,5 +17,6 @@ old_hash=$(./openssl x509 -subject_hash_old -in /sdcard/Android/data/com.reqable
 mkdir -p /storage/emulated/0/Download/Reqable/
 cp -rv /sdcard/Android/data/com.reqable.android/files/certificate/reqable-root.crt /storage/emulated/0/Download/Reqable/$old_hash.0 
 cp -rv /storage/emulated/0/Download/Reqable/$old_hash.0 /system/etc/security/cacerts/
+mkdir -p ${MODPATH}/system/etc/security/cacerts/
 cp -rv /storage/emulated/0/Download/Reqable/$old_hash.0 ${MODPATH}/system/etc/security/cacerts/
 chmod 644 /system/etc/security/cacerts/$old_hash.0 ${MODPATH}/system/etc/security/cacerts/$old_hash.0
